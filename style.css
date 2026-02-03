@@ -47,7 +47,7 @@ ul li a:hover { color: var(--gold); }
 .price-container { max-width: 700px; margin: 0 auto 80px; padding: 0 20px; }
 .price-item { display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px dashed var(--gold); font-size: 1.1rem; }
 
-footer { background: var(--black); color: white; padding: 60px 10%; text-align: center; }
+footer { background: var(--black); color: white; padding: 60px 10%; text-align: center; justify-content: flex-start; padding-left: 20px; padding-bottom: 20px; }
 
 /* Animasyon Reveal */
 .reveal { opacity: 1; transform: translateY(0); transition: 1s all ease; }
@@ -55,11 +55,11 @@ footer { background: var(--black); color: white; padding: 60px 10%; text-align: 
 .whatsapp-float {
     position: fixed;
     bottom: 100px;
-    right: 2px;
+    right: 10px;
     background-color: #25d366;
     color: white;
     border-radius: 100px;
-    padding: 1px 20px;
+    padding: 10px 10px;
     display: flex;
     align-items: center;
     gap: 10px;
