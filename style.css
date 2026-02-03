@@ -59,7 +59,7 @@ footer { background: var(--black); color: white; padding: 60px 10%; text-align: 
     background-color: #25d366;
     color: white;
     border-radius: 100px;
-    padding: 10px 20px;
+    padding: 1px 20px;
     display: flex;
     align-items: center;
     gap: 10px;
